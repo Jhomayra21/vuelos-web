@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>tarifas</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="pagina11.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="banner">
+                <div class="navbar" style="background: transparent;color:white">
+                    <ul>
+                        <li><a href=""><img src="image/avion (1).png" alt="" width="30" height="30">Drive air</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="paguina13.html">Tarifas</a></li>
+                        <li><a href="pagina11.html">Destinos</a></li>
+                    </ul>
+                </div>
+            </section>
+            
+        </div>
+        </header>
+        
+        <main>
+            <section class="slider">
+                <div class="list">
+                    <div class="item active">
+                        <div class="image" style="--url: url('image/viaje1.jpg')"></div>
+                        <div class="content">
+                            <h2>TENEMOS DIFERENTES DESTINOS</h2>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image" style="--url: url('image/viaje2.jpeg')"></div>
+                        <div class="content">
+                            <h2>ELIGE TU DESTINO</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image" style="--url: url('image/viaje3.jpeg')"></div>
+                        <div class="content">
+                            <h2>TU MEJOR DESTINO </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                        </svg>
+                    </button>
+                    <button id="next">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <div class="navbar1" style="background: #2c445d;color:rgb(0, 0, 0);justify-content:space-around">
+                <div class="header">
+                    <h1>Tienda</h1>
+                    <div class="container-icon">
+                        <div class="container-cart-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                            </svg>
+                            <div class="count-products">
+                                <span id="contador-productos">0</span>
+                            </div>
+                        </div>
+        
+                        <div class="container-cart-products hidden-cart" >
+                            <div class="row-product hidden">
+                                <div class="cart-product">
+                                    <div class="info-cart-product">
+                                        <span class="cantidad-producto-carrito">1</span>
+                                        <p class="titulo-producto-carrito">Zapatos Nike</p>
+                                        <span class="precio-producto-carrito">$80</span>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="icon-close"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M6 18L18 6M6 6l12 12"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+        
+                            <div class="cart-total hidden">
+                                <h3>Total:</h3>
+                                <span class="total-pagar">$200</span>
+                            </div>
+                            <p class="cart-empty">El carrito está vacío</p>
+                        </div>
+                    </div></div>
+            </div>
+            <div class="container-items" style="padding: 10%;">
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/sucre.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Sucre</h2>
+                        <p class="price">$300</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/salar.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Uyuni</h2>
+                        <p class="price">$200</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/potosi.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Ptosi</h2>
+                        <p class="price">$350</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/oruro.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Oruro</h2>
+                        <p class="price">$480</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/lapaz.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>La Paz</h2>
+                        <p class="price">$450</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/santa.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Santa Cruz</h2>
+                        <p class="price">$550</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/pando.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Pando</h2>
+                        <p class="price">$390</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/beni.webp"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Beni</h2>
+                        <p class="price">$450</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/cocha.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Chochabamba</h2>
+                        <p class="price">$350</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="image/tarija.jpg"
+                            alt="producto"
+                        />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Tarija</h2>
+                        <p class="price">$350</p>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una compañía dedicada a brindar los mejores servicios de viajes para todos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                <a href="#"><img src="image/facebook.svg" alt="" width="20" height="20"></a>
+                <a href="#"><img src="image/instagram.svg" alt="" width="20" height="20"></a>
+                <a href="#"><img src="image/whatsapp.svg" alt="" width="20" height="20"></a>
+                <a href="#"><img src="image/twitter-x.svg" alt="" width="20" height="20"></a>
+                </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Drive air. Todos los derechos reservados.</p>
+            
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="app11.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        
+    
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
